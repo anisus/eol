@@ -1,4 +1,12 @@
-// Package eol provide string constants for line terminators.
+// Package eol provides string constants for line terminators.
+//
+//
+// Usage
+//
+// The package provides the convenience OS constant:
+//   fmt.Sprint(w, "Text" + eol.OS )
+// Eg. when targeting Windows you will have:
+//   const OS = CRLF
 package eol
 
 // Unicode line terminators as defined in:
